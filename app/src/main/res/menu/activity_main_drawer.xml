@@ -9,12 +9,12 @@
             android:icon="@drawable/ic_free_breakfast_black_24dp"
             android:title="Breakfast" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/nav_local_pizza"
+            android:icon="@drawable/ic_local_pizza_black_24dp"
             android:title="Main Courses" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:id="@+id/nav_cake_black"
+            android:icon="@drawable/ic_cake_black_24dp"
             android:title="Dessert" />
 
     </group>
@@ -22,8 +22,8 @@
     <item android:title="Takeout">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
+                android:id="@+id/nav_local_dining"
+                android:icon="@drawable/ic_local_dining_black_24dp"
                 android:title="Restaurants" />
 
         </menu>
