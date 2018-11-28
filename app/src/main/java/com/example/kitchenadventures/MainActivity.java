@@ -88,6 +88,8 @@ public class MainActivity extends AppCompatActivity
 
         }   else if (id == R.id.nav_local_dining) {
 
+        }   else if(id == R.id.nav_kitchen_black){
+
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
