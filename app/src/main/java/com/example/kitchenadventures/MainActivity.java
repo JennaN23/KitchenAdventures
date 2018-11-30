@@ -84,9 +84,8 @@ public class MainActivity extends AppCompatActivity
 
         Fragment newFragment = null;
 
-        if (id == R.id.) {
+        if (id == R.id.nav_free_breakfast) {
             newFragment = new BreakfastFragment();
-
         }
 
         if(newFragment != null){
@@ -96,17 +95,50 @@ public class MainActivity extends AppCompatActivity
                     .commit();
         }
 
-        if (id == R.id.nav_free_breakfast) {
-            // Handle the camera action
-        } else if (id == R.id.nav_local_pizza) {
-
-        } else if (id == R.id.nav_cake_black) {
-
-        }   else if (id == R.id.nav_local_dining) {
-
-        }   else if(id == R.id.nav_kitchen_black){
-
+        if (id == R.id.nav_local_pizza) {
+            newFragment = new MainFragment();
         }
+
+        if(newFragment != null){
+            FragmentManager fm = getSupportFragmentManager();
+            fm.beginTransaction()
+                    .replace(R.id.container_main, newFragment)
+                    .commit();
+        }
+
+        if (id == R.id.nav_cake_black) {
+            newFragment = new DessertFragment();
+        }
+
+        if(newFragment != null){
+            FragmentManager fm = getSupportFragmentManager();
+            fm.beginTransaction()
+                    .replace(R.id.container_main, newFragment)
+                    .commit();
+        }
+
+        if (id == R.id.nav_local_dining) {
+            newFragment = new RestaurantFragment();
+        }
+
+        if(newFragment != null){
+            FragmentManager fm = getSupportFragmentManager();
+            fm.beginTransaction()
+                    .replace(R.id.container_main, newFragment)
+                    .commit();
+        }
+
+        if(id == R.id.nav_kitchen_black){
+            newFragment = new RecipeFragment();
+        }
+
+        if(newFragment != null){
+            FragmentManager fm = getSupportFragmentManager();
+            fm.beginTransaction()
+                    .replace(R.id.container_main, newFragment)
+                    .commit();
+        }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
