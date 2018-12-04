@@ -30,6 +30,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/Sweet_potato_soup_1" />
+        app:srcCompat="@drawable/sweet_potato_soup_1" />
 
 </android.support.constraint.ConstraintLayout>
