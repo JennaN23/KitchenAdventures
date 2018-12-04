@@ -19,9 +19,7 @@ public class MainFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View rootView = inflater.inflate(R.layout.fragment_breakfast, container, false);
-        TextView tv = rootView.findViewById(R.id.textview_breakfast_title);
-        tv.setText("Breakfast");
+        View rootView = inflater.inflate(R.layout.fragment_main, container, false);
         return rootView;
     }
 }
