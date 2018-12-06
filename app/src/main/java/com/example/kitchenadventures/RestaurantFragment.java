@@ -20,8 +20,6 @@ public class RestaurantFragment extends Fragment {
                              @Nullable Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_restaurant, container, false);
-        TextView tv = rootView.findViewById(R.id.textView_restaurant_title);
-        tv.setText("Restaurants");
         return rootView;
     }
 }

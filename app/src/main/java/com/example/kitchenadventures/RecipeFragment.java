@@ -20,8 +20,6 @@ public class RecipeFragment extends Fragment {
                              @Nullable Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_recipe, container, false);
-        TextView tv = rootView.findViewById(R.id.textView_recipe_title);
-        tv.setText("Recipes");
         return rootView;
     }
 }
