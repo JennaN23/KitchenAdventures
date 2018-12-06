@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button_breakfast"
         android:layout_width="220dp"
         android:layout_height="63dp"
         android:layout_marginEnd="8dp"
