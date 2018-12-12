@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="444dp"
-        android:layout_height="550dp"
+        android:layout_width="491dp"
+        android:layout_height="611dp"
         android:src="@drawable/main1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

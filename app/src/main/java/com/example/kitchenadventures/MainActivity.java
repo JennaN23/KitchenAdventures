@@ -20,12 +20,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
+        implements NavigationView.OnNavigationItemSelectedListener {
 
-    private Button buttonBreakfast;
-    private Button buttonMains;
-    private Button buttonDessert;
-    private Button buttonRestaurant;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,18 +31,6 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        int drinkId = (Integer)getIntent().getExtras().get(EXTRA_RECIPEID);
-        Recipe recipe = Recipe.recipe[recipeId];
-
-        TextView name = (TextView)findViewById(R.id.name);
-        name.setText(recipe.getName());
-
-        TextView description = (TextView)findViewById(R.id.description);
-        description.setText(recipe.getDescription());
-
-        ImageView photo = (ImageView)findViewById(R.id.photo);
-        photo.setImageResource(recipe.getImageResourceId());
-        photo.setContentDescription(recipe.getName());
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -65,24 +50,6 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-
-        wireWidgets();
-        setOnClickListeners();
-
-    }
-
-    private void setOnClickListeners() {
-        buttonBreakfast.setOnClickListener(this);
-        buttonMains.setOnClickListener(this);
-        buttonDessert.setOnClickListener(this);
-        buttonRestaurant.setOnClickListener(this);
-    }
-
-    private void wireWidgets() {
-      buttonBreakfast = findViewById(R.id.button_breakfast);
-      buttonMains = findViewById(R.id.button_mains);
-      buttonDessert = findViewById(R.id.button_dessert);
-      buttonRestaurant = findViewById(R.id.button_restaurant);
     }
 
     @Override
@@ -186,9 +153,5 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    @Override
-    public void onClick(View v) {
-        Intent intent
 
-    }
 }
