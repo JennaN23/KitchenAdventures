@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity
         }
 
         if(id == R.id.nav_kitchen_black){
-            newFragment = new RecipeFragment();
+            newFragment = new RecipeList();
         }
 
         if(newFragment != null){
