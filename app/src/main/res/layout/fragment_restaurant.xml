@@ -11,7 +11,7 @@
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="626dp"
-        android:layout_height="797dp"
+        android:layout_height="825dp"
         android:layout_marginBottom="215dp"
         android:src="@drawable/restaurant1"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.491" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button_restaurant"
         android:layout_width="217dp"
         android:layout_height="57dp"
         android:layout_marginBottom="8dp"
