@@ -18,6 +18,9 @@ import android.view.MenuItem;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+
+    // TODO: DELETE APP_BAR_MAIN
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -129,7 +132,7 @@ public class MainActivity extends AppCompatActivity
         }
 
         if(id == R.id.nav_kitchen_black){
-            newFragment = new RecipeFragment();
+            newFragment = new Recipe1Fragment();
         }
 
         if(newFragment != null){
