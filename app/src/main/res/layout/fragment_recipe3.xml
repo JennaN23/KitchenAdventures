@@ -10,7 +10,7 @@
     <!-- TODO: Update blank fragment layout -->
 
     <ScrollView
-        android:id="@+id/scrollView_recipe1"
+        android:id="@+id/scrollView_recipe3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbarStyle="outsideOverlay"
@@ -25,24 +25,24 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView_recipe1_title"
+                android:id="@+id/textView_recipe3_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/cinzel"
-                android:text="Carrot Cake Oatmeal"
+                android:text="Chocolate Peanut Butter Waffles"
                 android:textAlignment="center"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView_recipe1"
+                android:id="@+id/imageView_recipe3"
                 android:layout_width="match_parent"
                 android:layout_height="465dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                android:src="@drawable/breakfast1"
+                android:src="@drawable/breakfast3"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -51,25 +51,32 @@
                 app:layout_constraintVertical_bias="1.0" />
 
             <TextView
-                android:id="@+id/textView_recipe1_ingredients"
+                android:id="@+id/textView_recipe3_ingredients"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/muli_extralight"
                 android:text="Ingredients:"
                 android:textAlignment="center"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="normal" />
 
             <TextView
-                android:id="@+id/textView_recipe1_ingredientList"
+                android:id="@+id/textView_recipe3_ingredientList"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/muli_extralight"
-                android:text=" -3/4 cup rolled oats \n -1 tsp pumpkin spice \n -1 large carrot \n -1 cup water \n -1/2 cup plant-based milk \n -1 tbsp sweetener of choice \n"
+                android:text="3/4 cup whole wheat flour
+2-3 tbsp cocoa powder
+1 tsp baking powder
+1 tbsp peanut butter or nut butter of choice
+1 tbsp maple syrup
+1/4 cup applesauce
+1/2 cup plant-based milk \n"
                 android:textAlignment="center"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView_recipe1_directions"
+                android:id="@+id/textView_recipe3_directions"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/muli_extralight"
@@ -78,11 +85,15 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView_recipe1_directionList"
+                android:id="@+id/textView_recipe3_directionList"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/muli_extralight"
-                android:text="1. In a pot on medium heat, add in oats, water, and milk. \n2. Using a grater, shred your carrot into the pot as the oatmeal cooks. \n3. Add in pumpkin spice, stir well, and cover the pot to cook on low heat. \n4. Once the oats are cooked to your desired texture, sweeten to taste and remove from heat. Serve warm and enjoy!"
+                android:text="1. Preheat and grease a waffle iron.
+2. In a bowl, mix together flour, cocoa powder, and baking powder. Separately, mix together the  wet ingredients and pour it into the flour mixture.
+3. Whisk the two mixtures until combined and slightly lumpy.
+4. Spoon batter onto the waffle iron, then cook until both sides are browned. Repeat until all the batter is used up.
+5. Serve warm and enjoy!"
                 android:textSize="20sp" />
 
         </LinearLayout>

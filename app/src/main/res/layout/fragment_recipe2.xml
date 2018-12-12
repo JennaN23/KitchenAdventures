@@ -10,7 +10,7 @@
     <!-- TODO: Update blank fragment layout -->
 
     <ScrollView
-        android:id="@+id/scrollView_recipe1"
+        android:id="@+id/scrollView_recipe2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbarStyle="outsideOverlay"
@@ -25,24 +25,24 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView_recipe1_title"
+                android:id="@+id/textView_recipe2_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/cinzel"
-                android:text="Carrot Cake Oatmeal"
+                android:text="Pink Breakfast Jars"
                 android:textAlignment="center"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView_recipe1"
+                android:id="@+id/imageView_recipe2"
                 android:layout_width="match_parent"
                 android:layout_height="465dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                android:src="@drawable/breakfast1"
+                android:src="@drawable/breakfast2"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -51,25 +51,33 @@
                 app:layout_constraintVertical_bias="1.0" />
 
             <TextView
-                android:id="@+id/textView_recipe1_ingredients"
+                android:id="@+id/textView_recipe2_ingredients"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/muli_extralight"
                 android:text="Ingredients:"
                 android:textAlignment="center"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="normal" />
 
             <TextView
-                android:id="@+id/textView_recipe1_ingredientList"
+                android:id="@+id/textView_recipe2_ingredientList"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/muli_extralight"
-                android:text=" -3/4 cup rolled oats \n -1 tsp pumpkin spice \n -1 large carrot \n -1 cup water \n -1/2 cup plant-based milk \n -1 tbsp sweetener of choice \n"
+                android:text="CHIA PUDDING:
+4 tbsp chia seeds
+1 cup plant-based milk
+1 tbsp maple syrup
+SMOOTHIE LAYER:
+2 frozen bananas
+1 cup frozen strawberries
+1/2 cup puffed grains \n"
                 android:textAlignment="center"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView_recipe1_directions"
+                android:id="@+id/textView_recipe2_directions"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/muli_extralight"
@@ -78,11 +86,13 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView_recipe1_directionList"
+                android:id="@+id/textView_recipe2_directionList"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/muli_extralight"
-                android:text="1. In a pot on medium heat, add in oats, water, and milk. \n2. Using a grater, shred your carrot into the pot as the oatmeal cooks. \n3. Add in pumpkin spice, stir well, and cover the pot to cook on low heat. \n4. Once the oats are cooked to your desired texture, sweeten to taste and remove from heat. Serve warm and enjoy!"
+                android:text="1. In a jar, mix together the chia pudding ingredients and let set in the fridge for at least 2 hours.
+2. When ready to eat, blend the bananas and strawberries in a food processor, adding a splash of liquid if needed.
+3. Once the nice cream reaches a smooth texture, layer your jars, as desired, with the different components."
                 android:textSize="20sp" />
 
         </LinearLayout>

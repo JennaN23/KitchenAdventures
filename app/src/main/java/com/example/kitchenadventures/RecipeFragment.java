@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class Recipe1Fragment extends Fragment {
+public class RecipeFragment extends Fragment {
 
     @Nullable
     @Override
