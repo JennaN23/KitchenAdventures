@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -124,7 +124,7 @@
         android:layout_marginTop="4dp"
         android:background="#50000000"
         android:fontFamily="@font/josefin_sans"
-        android:text="@string/recipe_7"
+        android:text="@string/chocolate_bundt_cake"
         app:layout_constraintBottom_toTopOf="@+id/button_recipeList_cinnamon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -141,7 +141,7 @@
         android:layout_marginTop="4dp"
         android:background="#50000000"
         android:fontFamily="@font/josefin_sans"
-        android:text="@string/recipe_8"
+        android:text="@string/no_knead_cinnamon_rolls"
         app:layout_constraintBottom_toTopOf="@+id/button_recipeList_muffins"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
@@ -158,10 +158,10 @@
         android:layout_marginTop="4dp"
         android:background="#50000000"
         android:fontFamily="@font/josefin_sans"
-        android:text="@string/recipe_9"
+        android:text="@string/matcha_green_tea_muffins"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_recipeList_cinnamon" />
-</android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.LinearLayoutCompat>

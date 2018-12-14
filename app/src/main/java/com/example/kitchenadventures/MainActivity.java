@@ -1,5 +1,6 @@
 package com.example.kitchenadventures;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -15,8 +16,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity
@@ -30,6 +33,45 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> listView, View itemView, int position, long id) {
+                if(position == 0){
+                    Intent intent = new Intent(MainActivity.this, RecipeActivity.class);
+                    startActivity(intent);
+                }
+            }
+        };
+
+        Button buttonCarrot = findViewById(R.id.button_recipeList_carrot);
+        buttonCarrot.setOnItemClickListener(itemClickListener);
+
+        Button buttonJar = findViewById(R.id.button_recipeList_jar);
+        buttonJar.setOnItemClickListener(itemClickListener);
+
+        Button buttonWaffle = findViewById(R.id.button_recipeList_waffle);
+        buttonWaffle.setOnItemClickListener(itemClickListener);
+
+        Button buttonTofu = findViewById(R.id.button_recipeList_tofu);
+        buttonTofu.setOnItemClickListener(itemClickListener);
+
+        Button buttonPesto = findViewById(R.id.button_recipeList_pesto);
+        buttonPesto.setOnItemClickListener(itemClickListener);
+
+        Button buttonChili = findViewById(R.id.button_recipeList_chili);
+        buttonChili.setOnItemClickListener(itemClickListener);
+
+        Button buttonChocolate = findViewById(R.id.button_recipeList_chocolate);
+        buttonChocolate.setOnItemClickListener(itemClickListener);
+
+        Button buttonCinnamon = findViewById(R.id.button_recipeList_cinnamon);
+        buttonCinnamon.setOnItemClickListener(itemClickListener);
+
+        Button buttonMuffins = findViewById(R.id.button_recipeList_muffins);
+        buttonMuffins.setOnItemClickListener(itemClickListener);
+
+
 
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);

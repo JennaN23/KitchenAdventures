@@ -16,7 +16,19 @@
     <string name="sweet_and_spicy_miso_tofu">Sweet and Spicy Miso Tofu</string>
     <string name="avocado_pesto">Avocado \'Pesto\'</string>
     <string name="meaty_vegan_chili">\'Meaty\' Vegan Chili</string>
-    <string name="recipe_7">Recipe 7</string>
-    <string name="recipe_8">Recipe 8</string>
-    <string name="recipe_9">Recipe 9</string>
+    <string name="chocolate_bundt_cake">Chocolate Bundt Cake</string>
+    <string name="no_knead_cinnamon_rolls">No Knead Cinnamon Rolls</string>
+    <string name="matcha_green_tea_muffins">Matcha Green Tea Muffins</string>
+
+    <string-array name="Recipes">
+        <item>Carrot Cake Oatmeal</item>
+        <item>Pink Breakfast Jars</item>
+        <item>Chocolate Peanut Butter Waffles</item>
+        <item>Sweet and Spicy Miso Tofu</item>
+        <item>Avocado \'Pesto\'</item>
+        <item>\'Meaty\' Vegan Chili</item>
+        <item>Chocolate Bundt Cake</item>
+        <item>No Knead Cinnamon Rolls</item>
+        <item>Matcha Green Tea Muffins</item>
+    </string-array>
 </resources>
