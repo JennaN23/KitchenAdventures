@@ -10,4 +10,13 @@
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="what_will_be_your_kitchen_adventure_today">What will be your kitchen adventure today?</string>
+    <string name="carrot_cake_oatmeal">Carrot Cake Oatmeal</string>
+    <string name="pink_breakfast_jars">Pink Breakfast Jars</string>
+    <string name="chocolate_peanut_butter_waffles">Chocolate Peanut Butter Waffles</string>
+    <string name="sweet_and_spicy_miso_tofu">Sweet and Spicy Miso Tofu</string>
+    <string name="avocado_pesto">Avocado \'Pesto\'</string>
+    <string name="meaty_vegan_chili">\'Meaty\' Vegan Chili</string>
+    <string name="recipe_7">Recipe 7</string>
+    <string name="recipe_8">Recipe 8</string>
+    <string name="recipe_9">Recipe 9</string>
 </resources>

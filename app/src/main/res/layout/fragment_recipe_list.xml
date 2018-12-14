@@ -19,7 +19,7 @@
         android:layout_marginTop="8dp"
         android:background="#50000000"
         android:fontFamily="@font/josefin_sans"
-        android:text="Carrot Cake Oatmeal"
+        android:text="@string/carrot_cake_oatmeal"
         app:layout_constraintBottom_toTopOf="@+id/button_recipeList_jar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -37,7 +37,7 @@
         android:layout_marginTop="4dp"
         android:background="#50000000"
         android:fontFamily="@font/josefin_sans"
-        android:text="Pink Breakfast Jars"
+        android:text="@string/pink_breakfast_jars"
         app:layout_constraintBottom_toTopOf="@+id/button_recipeList_waffle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -55,15 +55,15 @@
         android:layout_marginTop="4dp"
         android:background="#50000000"
         android:fontFamily="@font/josefin_sans"
-        android:text="Recipe 3"
-        app:layout_constraintBottom_toTopOf="@+id/button_recipeList_4"
+        android:text="@string/chocolate_peanut_butter_waffles"
+        app:layout_constraintBottom_toTopOf="@+id/button_recipeList_tofu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_recipeList_jar" />
 
     <Button
-        android:id="@+id/button_recipeList_4"
+        android:id="@+id/button_recipeList_tofu"
         android:layout_width="295dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
@@ -72,8 +72,8 @@
         android:layout_marginTop="4dp"
         android:background="#50000000"
         android:fontFamily="@font/josefin_sans"
-        android:text="Recipe 4"
-        app:layout_constraintBottom_toTopOf="@+id/button_recipeList_5"
+        android:text="@string/sweet_and_spicy_miso_tofu"
+        app:layout_constraintBottom_toTopOf="@+id/button_recipeList_pesto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -81,7 +81,7 @@
         app:layout_constraintVertical_bias="0.615" />
 
     <Button
-        android:id="@+id/button_recipeList_5"
+        android:id="@+id/button_recipeList_pesto"
         android:layout_width="295dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
@@ -90,15 +90,15 @@
         android:layout_marginTop="4dp"
         android:background="#50000000"
         android:fontFamily="@font/josefin_sans"
-        android:text="Recipe 5"
-        app:layout_constraintBottom_toTopOf="@+id/button_recipeList_6"
+        android:text="@string/avocado_pesto"
+        app:layout_constraintBottom_toTopOf="@+id/button_recipeList_chili"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_recipeList_4" />
+        app:layout_constraintTop_toBottomOf="@+id/button_recipeList_tofu" />
 
     <Button
-        android:id="@+id/button_recipeList_6"
+        android:id="@+id/button_recipeList_chili"
         android:layout_width="295dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
@@ -107,15 +107,15 @@
         android:layout_marginTop="4dp"
         android:background="#50000000"
         android:fontFamily="@font/josefin_sans"
-        android:text="recipe 6"
-        app:layout_constraintBottom_toTopOf="@+id/buttonrecipeList_7"
+        android:text="@string/meaty_vegan_chili"
+        app:layout_constraintBottom_toTopOf="@+id/button_recipeList_chocolate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_recipeList_5" />
+        app:layout_constraintTop_toBottomOf="@+id/button_recipeList_pesto" />
 
     <Button
-        android:id="@+id/buttonrecipeList_7"
+        android:id="@+id/button_recipeList_chocolate"
         android:layout_width="295dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
@@ -124,15 +124,15 @@
         android:layout_marginTop="4dp"
         android:background="#50000000"
         android:fontFamily="@font/josefin_sans"
-        android:text="Recipe 7"
-        app:layout_constraintBottom_toTopOf="@+id/button_recipeList_8"
+        android:text="@string/recipe_7"
+        app:layout_constraintBottom_toTopOf="@+id/button_recipeList_cinnamon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_recipeList_6" />
+        app:layout_constraintTop_toBottomOf="@+id/button_recipeList_chili" />
 
     <Button
-        android:id="@+id/button_recipeList_8"
+        android:id="@+id/button_recipeList_cinnamon"
         android:layout_width="295dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
@@ -141,15 +141,15 @@
         android:layout_marginTop="4dp"
         android:background="#50000000"
         android:fontFamily="@font/josefin_sans"
-        android:text="Recipe 8"
-        app:layout_constraintBottom_toTopOf="@+id/button_recipeList_9"
+        android:text="@string/recipe_8"
+        app:layout_constraintBottom_toTopOf="@+id/button_recipeList_muffins"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonrecipeList_7" />
+        app:layout_constraintTop_toBottomOf="@+id/button_recipeList_chocolate" />
 
     <Button
-        android:id="@+id/button_recipeList_9"
+        android:id="@+id/button_recipeList_muffins"
         android:layout_width="295dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -158,10 +158,10 @@
         android:layout_marginTop="4dp"
         android:background="#50000000"
         android:fontFamily="@font/josefin_sans"
-        android:text="Recipe 9"
+        android:text="@string/recipe_9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_recipeList_8" />
+        app:layout_constraintTop_toBottomOf="@+id/button_recipeList_cinnamon" />
 </android.support.constraint.ConstraintLayout>

@@ -1,7 +1,5 @@
 package com.example.kitchenadventures;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -19,10 +17,11 @@ public class RecipeList extends Fragment {
     private Button buttonWaffle;
     private Button buttonPesto;
     private Button buttonChili;
-    private Button buttonNoodles;
+    private Button buttonTofu;
     private Button buttonChocolate;
     private Button buttonCinnamon;
     private Button buttonMuffins;
+
 
 
     @Nullable
@@ -35,10 +34,18 @@ public class RecipeList extends Fragment {
         return rootView;
     }
 
+
+
     private void wireWidgets() {
         buttonCarrot.findViewById(R.id.button_recipeList_carrot);
         buttonJar.findViewById(R.id.button_recipeList_jar);
         buttonWaffle.findViewById(R.id.button_recipeList_waffle);
+        buttonTofu.findViewById(R.id.button_recipeList_tofu);
+        buttonPesto.findViewById(R.id.button_recipeList_pesto);
+        buttonChili.findViewById(R.id.button_recipeList_chili);
+        buttonChocolate.findViewById(R.id.button_recipeList_chocolate);
+        buttonCinnamon.findViewById(R.id.button_recipeList_cinnamon);
+        buttonMuffins.findViewById(R.id.button_recipeList_muffins);
     }
 
 
